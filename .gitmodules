@@ -8,3 +8,7 @@
 [submodule "themes/hugo-future-imperfect-slim"]
 	path = themes/hugo-future-imperfect-slim
 	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "dumdumgit.github.io"]
+	path = dumdumgit.github.io
+	url = https://github.com/dumdumgit/dumdumgit.github.io.git
+	branch = master
