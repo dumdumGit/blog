@@ -1,4 +1,55 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://blog.asagi.web.id/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sadan D.C'
 theme = "bodhi"
+
+[params]
+    subtitle = "(dumdum)"
+    avatar = "https://avatars.githubusercontent.com/u/22298610?v=4"
+    author = "Sadan D.C"
+    commentoSrc = "https://commento.myselfhostedinstance.net/js/commento.js"
+    footerMessage = "Feel free to use the content of this website with appropriate attribution to the author."
+
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main_right]]
+name = "contact"
+url = "/contact/"
+weight = 1
+
+[[menu.nav]]
+name = "projects"
+url = "/projects"
+weight = 2
+
+[[menu.nav]]
+parent = "projects"
+name = "bodhi"
+url = "/projects/bodhi"
+weight = 1
+
+[[menu.nav]]
+name = "blogs"
+url = "/blog"
+weight = 1
+
+[[menu.nav]]
+parent = "blogs"
+name = "archive"
+url = "/archive"
+weight = 1
+
+[[menu.nav]]
+parent = "blogs"
+name = "tags"
+url = "/tags"
+weight = 2
+
+[[menu.nav]]
+parent = "blogs"
+name = "categories"
+url = "/categories"
+weight = 3
